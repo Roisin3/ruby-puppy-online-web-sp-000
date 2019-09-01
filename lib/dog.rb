@@ -20,7 +20,7 @@ class Dog
   
   def self.print_all
     @@all.map do |name|
-      puts name.to_str
+      puts name.to_s
     end
   end
   
