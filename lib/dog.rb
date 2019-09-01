@@ -19,9 +19,7 @@ class Dog
   end
   
   def self.print_all
-    @@all.map do |puppy|
-      puppy.name
-    end
+    @@all.map { |puppy| puppy.name }
   end
   
   def self.clear_all
